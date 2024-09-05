@@ -1,0 +1,1 @@
+find ./docs -type f -name '*.c' -exec sh -c 'mv "$0" "${0%.c}.md"' {} \;
